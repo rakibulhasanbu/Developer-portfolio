@@ -18,7 +18,7 @@
   position: relative;
   max-width: 100vw;
   height: fit-content;
-  background: #fff8f3 url("/images/header_bg.png") no-repeat bottom right;
+  background: #fff8f3 url("images/header_bg.png") no-repeat bottom right;
 }
 nav {
   display: flex;
