@@ -9,6 +9,10 @@
   border: none;
   border-radius: 5px;
 }
+.container {
+  max-width: 1040px;
+  margin: auto;
+}
 /* header and navigation styles starts here  */
 .header-area {
   position: relative;
@@ -78,4 +82,93 @@ nav > ul > li {
   top: 15px;
   left: 15px;
   z-index: 2;
+}
+
+/* about me section design starts here  */
+
+.about-me {
+  margin-top: 150px;
+  padding: 110px 150px;
+  background: #fff6eff5;
+  border-radius: 10px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 60px;
+}
+.about-section-details {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.details-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+.details-info {
+  font-weight: 400;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* what i do section design starts here  */
+.what-i-do-section {
+  margin-top: 150px;
+}
+.img-div > img {
+  width: 44px;
+  height: 44px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-section {
+  padding: 15px;
+  background: #fff;
+  margin-right: 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.skills-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-top: 10px;
+}
+.skills-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 20px;
+}
+
+/* resume section design starts here  */
+
+.resume-section {
+  margin-top: 150px;
+}
+.resume-info {
+  display: flex;
+}
+
+/* footer area design starts here  */
+
+.footer-area {
+  height: 50px;
+  min-width: 100vw;
+  background: #181818;
+  color: #fff;
+  text-align: center;
 }
