@@ -161,14 +161,78 @@ nav > ul > li {
 }
 .resume-info {
   display: flex;
+  gap: 20px;
 }
-
+.education-info {
+  padding-bottom: 15px;
+}
+.education-section-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.education-info-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+.education-sub-info {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+.education-details {
+  color: #757575;
+  padding-bottom: 15px;
+}
+.btn-cv {
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+}
 /* footer area design starts here  */
-
+footer {
+  margin-top: 150px;
+  background: #fff6eff5;
+}
 .footer-area {
-  height: 50px;
-  min-width: 100vw;
-  background: #181818;
-  color: #fff;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+.message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+.message-input {
+  color: #474747;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.message-section > .btn {
+  width: fit-content;
+}
+.message-section-title,
+.contact-section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
 }
